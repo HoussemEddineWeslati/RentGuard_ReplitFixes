@@ -8,8 +8,8 @@ packages = ["concurrently"]
 
 [deployment]
 deploymentTarget = "autoscale"
-build = ["npm", "run", "build"]
-run = ["npm", "run", "start"]
+build = ["bash", "-c", "cd client && npm run build"]
+run = ["npm", "--prefix", "server", "run"]
 
 [[ports]]
 localPort = 5000
