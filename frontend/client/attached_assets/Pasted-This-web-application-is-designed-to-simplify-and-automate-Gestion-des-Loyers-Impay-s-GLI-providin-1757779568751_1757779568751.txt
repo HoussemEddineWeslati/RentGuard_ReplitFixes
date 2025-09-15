@@ -1,0 +1,48 @@
+This web application is designed to simplify and automate Gestion des Loyers Impayés (GLI), providing landlords with a complete solution to protect their rental income. It combines the benefits of rental insurance with intelligent administrative tools, allowing landlords to manage tenants, track rent payments, and calculate insurance premiums effortlessly.
+With this app, landlords can:
+Subscribe to a monthly plan that fits their needs, from a free plan for basic use to a Pro plan offering full features.
+Add and manage tenants, track payment status, and automatically flag overdue rents.
+Calculate GLI monthly premiums quickly, based on rent amount, tenant risk, and coverage level, helping landlords make informed decisions.
+Access a professional dashboard that shows key metrics, including total tenants, unpaid rents, and projected income.
+Home Page
+The Home Page introduces the service: a professional, clean landing page for landlords.
+It should include a headline like “Protect Your Rent with GLI Insurance” and a short description of the app’s benefits: automatic rent tracking, unpaid rent management, and quote calculation.
+Include call-to-action buttons: “Sign Up” and “Login.”
+Optionally, a few visual cards or icons to highlight key features: Tenant Management, Monthly Premium Calculation, Dashboard Insights.
+Login / Sign Up Pages
+Sign Up Page: Landlords can create an account with email and password. Include fields for basic landlord info, e.g., name and property count.
+Login Page: Standard email/password login. Optionally, a “Forgot Password?” link for realism.
+Validation: Basic input validation to ensure correct email format and non-empty password.
+Subscription Plans Page
+Show different plans: Free, Pro, and optionally Enterprise (for demo purposes).
+Each plan should have:
+Plan Name: Free / Pro.
+Features: Free plan may include limited tenants, mock quote calculation, or basic dashboard. Pro plan enables full tenant management, multiple properties, full dashboard, and notifications.
+Price: Free = $0, Pro = example 50 TND/month.
+CTA Button: “Subscribe” or “Upgrade.”
+This page demonstrates the SaaS model, showing that the app can generate revenue.
+Dashboard / Main App Page
+After login, the landlord is taken to the dashboard, the central hub.
+Key elements to include for the demo:
+Tenant Overview: Table showing tenants, rent amounts, status (Paid/Unpaid).
+Quick Stats: Total tenants, unpaid rent, monthly premium income.
+Navigation Menu: Links to “Quote Calculator,” “Tenant Management,” “Subscription Plan,” and optionally “Reports.”
+Use colored badges to indicate unpaid rents and simple charts for monthly metrics.
+Quote / “Devis” Page
+This page allows landlords to calculate their monthly GLI premium based on rent, risk factor, and coverage.
+Inputs: Rent amount in TND, risk factor (Low/Medium/High), coverage level (Basic/Standard/Premium).
+Output: Monthly premium displayed prominently, e.g., “Your estimated GLI monthly premium: 36 TND,” with a small breakdown of calculation for clarity.
+Optional: “Download Quote” button to show a professional feature, even if it’s a mock PDF for the demo.
+Tenant Management Page
+Landlords can add, edit, or remove tenants.
+Display tenants in a table with columns: Name, Property, Rent, Payment Status, Lease Dates.
+Include action buttons for “Mark Paid” or “Send Reminder” (even as a demo placeholder).
+This page demonstrates automation and how the app handles unpaid rent.
+Reports / Optional Page
+A simple page showing monthly overview: total rent due, collected, and unpaid, optionally a small chart or bar graph.
+Helps the demo feel complete and gives a “real business” look.
+Navigation / Layout
+Top Nav Bar or Side Menu with links: Dashboard, Quote Calculator, Tenant Management, Subscription Plan, Reports, Profile/Logout.
+Keep design clean, intuitive, and consistent in colors/fonts.
+
+please use react for frontend and express nodejs for backend 
